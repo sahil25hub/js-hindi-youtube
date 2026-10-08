@@ -1,0 +1,16 @@
+const accountId = 12345
+let accountEmail = "notme@Mail.com"
+// var accountPassword = "54321"//
+accountCity = "Hissar"
+let accountState = "defined"
+
+accountPassword = "09876"
+// accountId = 45674 //
+
+/*
+do not use var 
+*/
+
+console.log(accountId);
+
+console.table([accountEmail, accountId, accountPassword, accountState, accountCity])

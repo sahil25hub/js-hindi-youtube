@@ -33,3 +33,27 @@ let myObj = {
 // }
 
 // console.log(typeof );
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive),   Heap (non primitive)
+
+let myYoutubename = "sahilgulia"
+
+let anothername = myYoutubename
+anothername = "sahilgulia12121"
+
+// console.log(myYoutubename);
+// console.log(anothername);
+
+let userone = {
+    email: "user@mail.com",
+    upi: "Not.me"
+}
+ 
+let usertwo = userone
+
+// console.log(userone);
+// console.log(usertwo);
+
